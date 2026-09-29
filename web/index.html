@@ -44,8 +44,13 @@
  </div>
  <div class="mutation-grid">
   <article class="panel structure-panel">
-   <div class="panel-head"><div><b>Structural context</b><span>EGFR kinase domain · PDB 7JXP</span></div><div class="viewer-actions"><button id="spin3d">Spin</button><button id="zoomMutation">Focus residue</button></div></div>
+   <div class="panel-head"><div><b>Structural context</b><span>EGFR kinase domain · PDB 7JXP</span></div><div class="viewer-actions"><button id="spin3d">Spin</button><button id="zoomMutation">Focus residue</button><button id="wholeKinase">Whole kinase</button></div></div>
    <div id="molDetail" class="mol detail"></div>
+   <div class="structure-legend" aria-label="3D structure color legend">
+    <div class="rainbow-key"><span class="rainbow-swatch"></span><div><b>Rainbow = sequence position</b><small>N-terminus → C-terminus along the EGFR kinase domain</small></div></div>
+    <div class="selected-key"><span class="selected-swatch"></span><div><b>Selected mutation</b><small>Highlighted residue and label</small></div></div>
+    <div class="ligand-key"><span class="ligand-swatch"></span><div><b>Bound molecules</b><small>Shown as stick models</small></div></div>
+   </div>
    <div id="structureMsg" class="structure-msg"></div>
   </article>
   <article class="panel summary-panel">
